@@ -224,6 +224,11 @@ _G.packer_plugins = {
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/solarized.nvim",
     url = "https://github.com/shaunsingh/solarized.nvim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -243,11 +248,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-go"] = {
-    loaded = true,
-    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/vim-go",
-    url = "https://github.com/fatih/vim-go"
   },
   ["vim-illuminate"] = {
     loaded = true,
