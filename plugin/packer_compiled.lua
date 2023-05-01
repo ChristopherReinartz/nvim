@@ -139,11 +139,6 @@ _G.packer_plugins = {
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["jsonnet-language-server"] = {
-    loaded = true,
-    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/jsonnet-language-server",
-    url = "https://github.com/grafana/jsonnet-language-server"
-  },
   ["lazygit.nvim"] = {
     loaded = true,
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/lazygit.nvim",

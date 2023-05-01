@@ -81,11 +81,6 @@ return packer.startup(function(use)
 	use({ "williamboman/mason-lspconfig.nvim" })
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
 	use({ "RRethy/vim-illuminate" })
-	-- use("grafana/jsonnet-language-server")
-	-- -- use("golang/tools/tree/master/gopls")
-
-	-- Language support
-	-- use({ "fatih/vim-go" }) -- TODO: Replace with gopls ()
 
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" })
