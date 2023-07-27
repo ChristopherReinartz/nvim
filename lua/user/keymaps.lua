@@ -48,7 +48,8 @@ keymap("i", "kj", "<ESC>", opts)
 
 -- Visual --
 -- Do not copy upon delete
-keymap("n", "d", "\"_d", opts) 
+keymap("n", "d", "\"_d", opts)
+keymap("v", "d", "\"_d", opts)
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)

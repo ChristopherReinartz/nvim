@@ -8,9 +8,11 @@ local servers = {
 	"jsonls",
 	"yamlls",
 	"jsonnet_ls",
-  "terraformls",
-  "tflint",
-  "gopls",
+	"terraformls",
+	"tflint",
+	"gopls",
+	"java_language_server",
+  "groovyls",
 }
 
 local settings = {

@@ -94,5 +94,6 @@ telescope.setup({
 		--   extension_config_key = value,
 		-- }
 		-- please take a look at the readme of the extension you want to configure
+    "nvim-telescope/telescope/live-grep-args.nvim"
 	},
 })

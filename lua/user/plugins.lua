@@ -82,6 +82,9 @@ return packer.startup(function(use)
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
 	use({ "RRethy/vim-illuminate" })
 
+  -- Language specific non LSP
+  use({"modille/groovy.vim"})
+
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" })
 
@@ -92,8 +95,13 @@ return packer.startup(function(use)
 	})
 
 	-- Git
-	use("kdheepak/lazygit.nvim") -- slow as fuck...
+  use("lewis6991/gitsigns.nvim")
 
+	-- Viewers
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

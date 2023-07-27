@@ -129,6 +129,16 @@ _G.packer_plugins = {
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["groovy.vim"] = {
+    loaded = true,
+    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/groovy.vim",
+    url = "https://github.com/modille/groovy.vim"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/impatient.nvim",
@@ -139,15 +149,15 @@ _G.packer_plugins = {
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["lazygit.nvim"] = {
-    loaded = true,
-    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
-    url = "https://github.com/kdheepak/lazygit.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/christopherreinartz/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
